@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="refresh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First chapter</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="bootsrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+
+
+    <!-- <div class="container  mt-5 ">
+
+        <div class="row bg-body-secondary m-auto mt-5 rounded-4  ">
+            <div class="pt-3  ">
+                <img src="images/1.webp " class="w-100" alt="">
+                <!-- <img src="images/2.webp " class="w-100" alt="">
+                <img src="images/3.webp " class="w-100" alt="">
+                <img src="images/4.webp " class="w-100" alt=""> -->
+
+    <!-- </div>
+
+            <div class="icon">
+                <ul class="d-flex justify-content-between   align-items-center  text-center">
+                    <li class="">
+                        <i class="fa-solid fa-house-chimney"></i>
+                        <p>Home</p>
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-box"></i>
+                        <p>Work</p>
+                    </li>
+                    <li class="">
+                        <i class="fa-solid fa-book-open"></i>
+                        <p>Blog</p>
+                    </li>
+                    <li class="">
+                        <i class="fas fa-users"></i>                        <p>
+                            About Us
+                        </p>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+   </div> -->
+    <div class=" w-50 p-4   m-auto  shadow-lg  my-5 ">
+        <h2>CRUDS STSYEM</h2>
+        <input id ="prodName"type="text" class="form-control  my-3" placeholder="enter prudect name">
+        <input id ="catuory" type="text" class="form-control  my-3" placeholder="enter prudect catuory">
+        <input id ="prodPrice"type="number" class="form-control  my-3" placeholder="enter prudect price">
+        <textarea id ="prodDesc" name="" id="" class="form-control my-3  " cols="30" rows="5"
+            placeholder="enter your  descrtion"></textarea>
+        <button class="btn btn-info " onclick="getInputs()">add prudect</button>
+        <input id="search"  oninput="search(this.value)" type="text" class="form-control  my-3" placeholder="Search....">
+
+
+    </div>
+    <div class="container">
+        <table class="table text-center ">
+            <thead>
+                <th>index</th>
+                <th>name</th>
+                <th>catuory</th>
+                <th>price</th>
+                <th>description</th>
+                <th>delete</th>
+                <th>update</th>
+            </thead>
+            <tbody  id="tBody">
+               
+              
+            </tbody>
+
+
+        </table>
+    </div>
+    <script src="bootsrap5/bootstrap.bundle.min.js"></script>
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
